@@ -1,0 +1,96 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    padding:15px 25px;
+    background-color: rgb(6, 193, 6);
+    color:white;
+}
+
+nav ul li a:hover{
+    background-color: rgb(6, 124, 6); 
+}
+
+section {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#buy{
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.property-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.property-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    padding: 1rem;
+}
+
+.property-item img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.property-item h3 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.property-item p {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+#price{
+    color: blueviolet;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(6, 193, 6);
+    color:white;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
